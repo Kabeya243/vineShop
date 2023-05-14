@@ -1,0 +1,11 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "test-sass",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./dist/main.scss:./dist/main.css"
+  },
+  "author": "ilunga",
+  "license": "ISC"
+}

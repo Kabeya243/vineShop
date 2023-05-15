@@ -6,12 +6,14 @@
   font-family: "poppins";
   src: url(/libs/font/Poppins-Regular.ttf);
 }
+html,body{
+  overflow-x: hidden;
+}
 body {
   padding: 0;
   width: 100vw;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
   font-family: poppins, sans-serif;
   background: linear-gradient(to right, #040404, #000, #282828) no-repeat;
   -webkit-user-select: none;
@@ -46,7 +48,7 @@ header nav {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  width: 100%;
+  width: 100vw;
 }
 header nav img {
   width: 40px;
